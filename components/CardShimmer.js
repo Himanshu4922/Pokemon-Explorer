@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./CountriesShimmer.module.css";
+import styles from "./CardShimmer.module.css";
 
-function CountriesShimmer() {
+function CardShimmer() {
   return Array.from({ length: 8 }).map((el,i) => (
     <div className={styles["skeleton-card"]} key={i}>
       <div className="image"></div>
@@ -15,4 +15,4 @@ function CountriesShimmer() {
   ));
 }
 
-export default CountriesShimmer;
+export default CardShimmer;

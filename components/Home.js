@@ -94,7 +94,7 @@ function Home() {
           </div>
 
           <div className={styles["countries-container"]}>
-            <CountriesShimmer />
+            < CardShimmer/>
           </div>
         </main>
       </>
